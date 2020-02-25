@@ -22,16 +22,18 @@
 -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
-  </head>
-  <body>
+<head>
+    <title>AR Test site</title>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"> </script>
+</head>
+
+<body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
+        <a-box depth="1" height="1" width="1" position="0 1.6 0" rotation="0 0 0" scale="0.5 0.5 0.5" color="orange" animation="property: position; to: 5 1.6 0; dur: 1500; easing: linear"></a-box>
+        <a-torus color="blue" arc="360" radius="3" radius-tubular="0.5"></a-torus>
+
+        <a-scene keyboard-shortcuts="enterVR: false"></a-scene>
     </a-scene>
-  </body>
+</body>
+
 </html>
