@@ -22,16 +22,16 @@ function staticLoadPlaces()
 
 var models = [//3
     {
-        url: './asset/beedrill/scene.gltf',
-        scale: '0.4 0.4 0.4',
-        info: 'Beedrill, Lv. 2, HP 20/8',
-        rotation: '0 200 0',
-    },
-    {
         url: './asset/sims_diamond/scene.gltf',
         scale: '0.4 0.4 0.4',
         rotation: '0 200 0',
         info: 'Active Sim, Lv. 22',
+    },
+    {
+        url: './asset/beedrill/scene.gltf',
+        scale: '0.4 0.4 0.4',
+        info: 'Beedrill, Lv. 2, HP 20/8',
+        rotation: '0 200 0',
     },
     {
         url: './asset/drone_tri-copter/scene.gltf',
