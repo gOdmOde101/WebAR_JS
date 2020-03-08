@@ -26,18 +26,21 @@ var models = [//3
         scale: '0.4 0.4 0.4',
         rotation: '0 200 0',
         info: 'Active Sim, Lv. 22',
+        position="20 8 80",
     },
     {
         url: './asset/beedrill/scene.gltf',
         scale: '0.4 0.4 0.4',
         info: 'Beedrill, Lv. 2, HP 20/8',
         rotation: '0 200 0',
+        position="20 8 80",
     },
     {
         url: './asset/drone_tri-copter/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: 'Spy-Copter, Lv. 3, HP 150/150',
+        position="20 8 80"
     },
 ];//3
 
