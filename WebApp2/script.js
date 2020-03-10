@@ -13,8 +13,8 @@ function staticLoadPlaces()
         {
             name: 'Characters',
             location: {
-                lat: 85.311387,
-                lng: 23.406480,
+                lat: 86.145958,
+                lng: 22.771579,
             },
         },
     ];
