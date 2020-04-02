@@ -12,17 +12,13 @@
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene embedded vr-mode-ui="enabled: false" arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
 
-       
+        <a-assets>
+            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/gOdmOde101/godmode101.github.io/WebAR_JS/QRbased/asset/poke_cubone/model.gltf"></a-asset-item>
+        </a-assets>
 
        <a-marker type='barcode' value='7'>
             <a-box position='0 0.5 0' color="yellow"></a-box>
         </a-marker>
-        <!--<a-assets>
-            <a-asset-item id="animated-asset"
-                src="https://raw.githubusercontent.com/gOdmOde101/godmode101.github.io/WebAR_JS/QRbased/asset/poke_cubone/model.gltf">
-            </a-asset-item>
-            https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf.....https://raw.githubusercontent.com/gOdmOde101/godmode101.github.io/WebAR_JS/QRbased
-        </a-assets>-->
 
         <a-marker id="animated-marker" type='barcode' value='6'>
             <a-entity
