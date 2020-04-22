@@ -9,14 +9,8 @@
   </head>
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
-      <a-marker-camera preset="custom" type="pattern" url="VBig.patt">
-
-        <a-entity
-          position="0 0 1"
-          scale="0.8 0.8 0.8"
-          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/gOdmOde101/WebAR_JS/master/asset/virus/scene.gltf">
-        </a-entity>
-
+      <a-marker-camera preset="custom" type="pattern" url="VBig.patt">    
+        <a-box color="red" rotation="0 45 45" scale="2 2 2"></a-box>
       </a-marker-camera>
       <a-entity camera></a-entity>
     </a-scene>
@@ -24,4 +18,11 @@
 </html>
 <!-- animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 10000"-->
 <!--https://github.com/gOdmOde101/WebAR_JS/tree/master/ARJSORGOFF/asset/]]]]]]rubika liyaqat
+
+<a-entity
+  position="0 0 1"
+  scale="0.8 0.8 0.8"
+  gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/gOdmOde101/WebAR_JS/master/asset/virus/scene.gltf">
+</a-entity>
+
 -->
