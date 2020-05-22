@@ -1,0 +1,171 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 23173,
+      "max": [
+        115.625244140625,
+        39.686943054199219,
+        71.46832275390625
+      ],
+      "min": [
+        0.6252443790435791,
+        4.8265466690063477,
+        2.474557638168335
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 278076,
+      "componentType": 5126,
+      "count": 23173,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 104916,
+      "max": [
+        23172
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Er.Praveen.Kumar (https://sketchfab.com/Er.Praveen.Kumar)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/solidworks-tutorial-140-sketch-mouse-in-sw-5b15b893b16743358a87221d599d0aa2",
+      "title": "Solidworks Tutorial #140 Sketch Mouse in SW"
+    },
+    "generator": "Sketchfab-8.35.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 419664,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 556152,
+      "byteOffset": 419664,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 975816,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.79213255993530696,
+          0.79213255993530696,
+          0.79213255993530696,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.67660926983200487
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        -1,
+        -1.1102230246251565e-16,
+        1.7225464509177405e-16,
+        0,
+        1.7225464509177405e-16,
+        -6.6613381477509392e-16,
+        1,
+        0,
+        -1.1102230246251565e-16,
+        1,
+        7.7715611723760958e-16,
+        0,
+        116.25053405761719,
+        -14.714702606201172,
+        14.714702606201172,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Mouse STL files.STL.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
