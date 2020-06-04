@@ -23,3 +23,51 @@
     </a-scene>
   </body>
 </html>
+<!--https://github.com/gOdmOde101/WebAR_JS/blob/master/ball.html
+testing custom marker
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Corona</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js "></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body style="margin : 0px; overflow: hidden;">
+    ===<a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>===
+    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+      <a-assets>
+        <a-asset-item response-type="arraybuffer" id="virus" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/gOdmOde101/WebAR_JS/master/asset/virus/scene.gltf"></a-asset-item>
+      </a-assets>
+
+      ===<a-marker preset="custom" type="pattern" url="./link/VBig.patt">
+      <a-marker preset="custom" type='barcode' value='1'>
+        <a-entity
+          position="0 0 1"
+          scale="2 2 2"
+          gltf-model="#poke"
+        </a-entity>
+      </a-marker>===
+
+
+      <a-marker preset="custom" type='barcode' value='14'>
+        <a-entity
+          position="0 0 1"
+          scale="2 2 2"
+          gltf-model="#virus"
+          animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 10000">
+        </a-entity>
+      </a-marker>
+      <a-entity camera></a-entity>
+
+
+
+    </a-scene>
+  </body>
+</html>
+<!-- animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 10000"-->
+<!--https://github.com/gOdmOde101/WebAR_JS/tree/master/ARJSORGOFF/asset/]]]]]]rubika liyaqat
+
+<a-box color="red" rotation="0 45 45" ></a-box>
+
+-->
