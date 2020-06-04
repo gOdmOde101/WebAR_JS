@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Adrenex Maestro Red Cricket Leather ball</title>
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<!-- Browser Tab Icon -->
+	<link rel="icon" type="image/png" href="./img/icon.png">
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header>
+		<div class="opnesidenav" id="open">
+				<div class="upper-nav">
+					<a class="nav-link text-right" href="#" ><i class="fa fa-close" onclick="closeNav()"></i></a>
+				</div>
+			<div>
+				<div class="image">
+					<img class="img-responsive" src="./QRcode/qr-code-ball.png" >
+				</div>
+				<div class="para">
+					<h1>How to use:</h1><br>
+					<p>1. Open Scanner app in your Smartphone.<br>
+					2. Scan QR-Code once to open AR-website.<br>
+					3. Again scan the internal marker to view 3D model.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- header -->
+		<div id="header">
+			<div class="container">
+				<div class="pull-left">
+					<!-- Logo -->
+					<div class="header-logo">
+						<a class="logo" href="index.html">
+							<img src="./img/logo6.png" alt="">
+						</a>
+					</div>
+					<!-- /Logo -->
+					<!-- Search -->
+					<div class="header-search">
+						<form>
+							<input class="input search-input" type="text" placeholder="Search...">
+							<button class="search-btn"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+					<!-- /Search -->
+				</div>
+				<div class="pull-right">
+					<ul class="header-btns">
+						<!-- Account -->
+						<li class="header-account dropdown default-dropdown">
+							<div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-user-o"></i>
+								</div>
+								<strong class="text-uppercase">hello <i class="fa fa-caret-down"></i></strong>
+							</div>
+							<a href="#" class="text-lowercase">godwin</a>
+							<ul class="custom-menu">
+								<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
+								<li><a href="#"><i class="fa fa-heart-o"></i> My Wishlist</a></li>
+								<li><a href="Checkout.html"><i class="fa fa-check"></i> Checkout</a></li>
+								<li><a href="#"><i class="fa fa-unlock-alt"></i> Login</a></li>
+							</ul>
+						</li>
+						<!-- /Account -->
+						<!-- Cart -->
+						<li class="header-cart dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-shopping-cart"></i>
+									<span class="qty">2</span>
+								</div>
+								<strong class="text-uppercase">My Cart</strong>
+								<br>
+								<span>₹4500</span>
+							</a>
+							<div class="custom-menu">
+								<div id="shopping-cart">
+									<div class="shopping-cart-list">
+										<div class="product product-widget">
+											<div class="product-thumb">
+												<img src="./img/thumb-product01.jpg" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-price">₹500<span class="qty">x3</span></h3>
+												<h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
+											</div>
+											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
+										</div>
+										<div class="product product-widget">
+											<div class="product-thumb">
+												<img src="./img/thumb-product02.jpg" alt="">
+											</div>
+											<div class="product-body">
+												<h3 class="product-price">₹650<span class="qty">x2</span></h3>
+												<h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
+											</div>
+											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
+										</div>
+									</div>
+									<div class="shopping-cart-btns">
+										<button class="main-btn">View Cart</button>
+										<button class="primary-btn">Checkout <i class="fa fa-arrow-circle-right"></i></button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- /Cart -->
+						<!-- Mobile nav toggle-->
+						<li class="nav-toggle">
+							<button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+						</li>
+						<!-- / Mobile nav toggle -->
+					</ul>
+				</div>
+			</div>
+			<!-- header -->
+		</div>
+		<!-- container -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<div id="navigation">
+		<!-- container -->
+		<div class="container">
+			<div id="responsive-nav">
+				<!-- category nav -->
+				<div class="category-nav show-on-click">
+					<span class="category-header">Categories <i class="fa fa-list"></i></span>
+					<ul class="category-list">
+						<li class="dropdown side-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Women’s Fashion <i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Clothing</h3></li>
+											<li><a href="WomensFashion.html">Winter & Seasonal Wear</a></li>
+											<li><a href="WomensFashion.html">Western Wear</a></li>
+											<li><a href="WomensFashion.html">Ethnic Wear</a></li>
+											<li><a href="WomensFashion.html">Party Wear</a></li>
+											<li><a href="WomensFashion.html">Sports Wear</a></li>
+										</ul>
+										<hr>
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Footware</h3></li>
+											<li><a href="WomensFashion.html">Sandal</a></li>
+											<li><a href="WomensFashion.html">Shoes</a></li>
+											<li><a href="WomensFashion.html">Ballerina</a></li>
+											<li><a href="WomensFashion.html">Flip-flops</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Beauty & Grooming</h3></li>
+											<li><a href="WomensFashion.html">Women’s Clothing</a></li>
+											<li><a href="WomensFashion.html">Makeup & Skin Care</a></li>
+											<li><a href="WomensFashion.html">Accessories</a></li>
+										</ul>
+									</div>
+
+								<div class="col-md-4 hidden-sm hidden-xs">
+										<a class="banner banner-2" href="WomensFashion.html">
+												<img src="./img/BannerWomen.jpg" alt="">
+												<div class="banner-caption">
+													<h3 class="white-color">NEW<br>COLLECTION</h3>
+												</div>
+										</a>
+								</div>
+							</div>
+							</div>
+						</li>
+						<li class="dropdown side-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Mens's Fashion <i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Clothing</h3></li>
+											<li><a href="MensFashion.html">Top Wear</a></li>
+											<li><a href="MensFashion.html">Bottom Wear</a></li>
+											<li><a href="MensFashion.html">Seasonal Wear</a></li>
+											<li><a href="MensFashion.html">Sports Wear</a></li>
+											<li><a href="MensFashion.html">Fabrics</a></li>
+										</ul>
+										<hr>
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Footware</h3></li>
+											<li><a href="MensFashion.html">Sports</a></li>
+											<li><a href="MensFashion.html">Casual</a></li>
+											<li><a href="MensFashion.html">Formal</a></li>
+											<li><a href="MensFashion.html">Boots</a></li>
+
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Accessories</h3></li>
+											<li><a href="MensFashion.html">Bagpacks</a></li>
+											<li><a href="MensFashion.html">Wallets</a></li>
+											<li><a href="MensFashion.html">Belts</a></li>
+											<li><a href="MensFashion.html">Sunglasses</a></li>
+										</ul>
+										<hr>
+									</div>
+									<div class="col-md-4 hidden-sm hidden-xs">
+										<a class="banner banner-2" href="MensFashion.html">
+											<img src="./img/BannerMen.jpg" alt="">
+											<div class="banner-caption">
+												<h3 class="white-color">NEW<br>COLLECTION</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="dropdown side-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Phones & Accessories<i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Smartphones</h3></li>
+											<li><a href="PhoneAccessories.html">Apple</a></li>
+											<li><a href="PhoneAccessories.html">Samsung</a></li>
+											<li><a href="PhoneAccessories.html">Motorola</a></li>
+											<li><a href="PhoneAccessories.html">Asus</a></li>
+											<li><a href="PhoneAccessories.html">Nokia</a></li>
+										</ul>
+										<hr>
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Mobile Covers</h3></li>
+											<li><a href="PhoneAccessories.html">Abstract Design</a></li>
+											<li><a href="PhoneAccessories.html">Marvel Studios</a></li>
+											<li><a href="PhoneAccessories.html">Puns</a></li>
+											<li><a href="PhoneAccessories.html">Animal Print</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Earphones</h3></li>
+											<li><a href="PhoneAccessories.html">Wireless</a></li>
+											<li><a href="PhoneAccessories.html">Airpods</a></li>
+											<li><a href="PhoneAccessories.html">Wired</a></li>
+											<li><a href="PhoneAccessories.html">Budget</a></li>
+										</ul>
+									</div>
+									<div class="col-md-4 hidden-sm hidden-xs">
+										<a class="banner banner-2" href="PhoneAccessories.html">
+											<img src="./img/BannerMobile2.jpg" alt="">
+											<div class="banner-caption">
+												<h3 class="white-color">GREAT<br>DEALS</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="ConsumerElectronics.html">Consumer Electronics</a></li>
+						<li class="dropdown side-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Jewelry & Watches <i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Watches</h3></li>
+											<li><a href="JewelleryWatches.html">Smart Watch</a></li>
+											<li><a href="JewelleryWatches.html">Analog Watch</a></li>
+											<li><a href="JewelleryWatches.html">Digital Watch</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li><h3 class="list-links-title">Jewellery</h3></li>
+											<li><a href="JewelleryWatches.html">Daily Wear</a></li>
+											<li><a href="JewelleryWatches.html">Men's Jewellery</a></li>
+											<li><a href="JewelleryWatches.html">Women's Jewellery</a></li>
+										</ul>
+									</div>
+									<div class="col-md-4 hidden-sm hidden-xs">
+										<a class="banner banner-2" href="JewelleryWatches.html">
+											<img src="./img/BannerRing.jpg" alt="">
+											<div class="banner-caption">
+												<h3 class="white-color">STUNNING<br>DESIGNS</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="Sports.html">Sports</a></li>
+
+				</div>
+				<!-- /category nav -->
+			</div>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /NAVIGATION -->
+
+	<!-- BREADCRUMB -->
+	<div id="breadcrumb">
+		<div class="container">
+			<ul class="breadcrumb">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Sports.html">Sports</a></li>
+				<li class="active">Adrenex Maestro Red Cricket Leather ball</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /BREADCRUMB -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!--  Product Details -->
+				<div class="product product-details clearfix">
+					<div class="col-md-6">
+						<div id="product-main-view">
+							<div class="product-view">
+								<img src="./img/S_3_1.jpg" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/S_3_2.jpg" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/S_3_3.jpg" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/S_3_4.jpg" alt="">
+							</div>
+						</div>
+						<div id="product-view">
+							<div class="product-view">
+								<img src="./img/S_3_1.jpg" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/S_3_2.jpg" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/S_3_3jpg" alt="">
+							</div>
+							<div class="product-view">
+								<img src="./img/S_3_4.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="product-body">
+							<div class="product-label">
+
+
+							</div>
+							<h2 class="product-name">Adrenex Maestro Red Cricket Leather ball</h2>
+							<h3 class="product-price">₹415</h3>
+							<div>
+								<div class="product-rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-o empty"></i>
+									<i class="fa fa-star-o empty"></i>
+								</div>
+								<a href="#">3 Review(s) / Add Review</a>
+							</div>
+							<p><strong>Availability:</strong> In Stock</p>
+							<p><strong>Brand:</strong>Adrenex</p>
+							<p>Play in Any Weather:-The use of premium leather ensures that this Maestro cricket ball endures any weather condition.
+ Hand-stitched Seam:-Expert handstitched-seam makes this Maestro cricket ball ideal for rigorous practice.
+ Durability:-Carefully crafted with selected genuine components, Maestro cricket balls are highly durable.
+Specifications-
+Model Name	•	Adrenex Maestro Leather Ball (Red) / Maestro 2 Panel Red_Int
+Stitching Type	•	Hand Stitched
+</p>
+
+							<div class="product-btns">
+								<div class="qty-input">
+									<span class="text-uppercase">QTY: </span>
+									<input class="input" type="number">
+								</div>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+								<div class="pull-right">
+									<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+									<img class="img-icon" src="./img/AR_logo.png" onclick="openNav()">
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="product-tab">
+							<ul class="tab-nav">
+								<li class="active"><a data-toggle="tab" href="#tab1">Description</a></li>
+								<li><a data-toggle="tab" href="#tab1">Details</a></li>
+								<li><a data-toggle="tab" href="#tab2">Reviews (3)</a></li>
+							</ul>
+							<div class="tab-content">
+								<div id="tab1" class="tab-pane fade in active">
+									<p>Play in Any Weather:-The use of premium leather ensures that this Maestro cricket ball endures any weather condition.
+		 Hand-stitched Seam:-Expert handstitched-seam makes this Maestro cricket ball ideal for rigorous practice.
+		 Durability:-Carefully crafted with selected genuine components, Maestro cricket balls are highly durable.
+		Specifications-
+		Model Name	•	Adrenex Maestro Leather Ball (Red) / Maestro 2 Panel Red_Int
+		Stitching Type	•	Hand Stitched
+</p>
+								</div>
+								<div id="tab2" class="tab-pane fade in">
+
+									<div class="row">
+										<div class="col-md-6">
+											<div class="product-reviews">
+												<div class="single-review">
+													<div class="review-heading">
+														<div><a href="#"><i class="fa fa-user-o"></i> John</a></div>
+														<div><a href="#"><i class="fa fa-clock-o"></i> 27 DEC 2017 / 8:0 PM</a></div>
+														<div class="review-rating pull-right">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star-o empty"></i>
+														</div>
+													</div>
+													<div class="review-body">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute
+															irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+													</div>
+												</div>
+
+												<div class="single-review">
+													<div class="review-heading">
+														<div><a href="#"><i class="fa fa-user-o"></i> John</a></div>
+														<div><a href="#"><i class="fa fa-clock-o"></i> 27 DEC 2017 / 8:0 PM</a></div>
+														<div class="review-rating pull-right">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star-o empty"></i>
+														</div>
+													</div>
+													<div class="review-body">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute
+															irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+													</div>
+												</div>
+
+												<div class="single-review">
+													<div class="review-heading">
+														<div><a href="#"><i class="fa fa-user-o"></i> John</a></div>
+														<div><a href="#"><i class="fa fa-clock-o"></i> 27 DEC 2017 / 8:0 PM</a></div>
+														<div class="review-rating pull-right">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star-o empty"></i>
+														</div>
+													</div>
+													<div class="review-body">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute
+															irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+													</div>
+												</div>
+
+												<ul class="reviews-pages">
+													<li class="active">1</li>
+													<li><a href="#">2</a></li>
+													<li><a href="#">3</a></li>
+													<li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<h4 class="text-uppercase">Write Your Review</h4>
+											<p>Your email address will not be published.</p>
+											<form class="review-form">
+												<div class="form-group">
+													<input class="input" type="text" placeholder="Your Name" />
+												</div>
+												<div class="form-group">
+													<input class="input" type="email" placeholder="Email Address" />
+												</div>
+												<div class="form-group">
+													<textarea class="input" placeholder="Your review"></textarea>
+												</div>
+												<div class="form-group">
+													<div class="input-rating">
+														<strong class="text-uppercase">Your Rating: </strong>
+														<div class="stars">
+															<input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+															<input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+															<input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+															<input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+															<input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+														</div>
+													</div>
+												</div>
+												<button class="primary-btn">Submit</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- /Product Details -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h2 class="title">Picked For You</h2>
+					</div>
+				</div>
+				<!-- section title -->
+
+				<!-- Product Single -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="product product-single">
+						<div class="product-thumb">
+							<img src="./img/product02.jpg" alt="">
+						</div>
+						<div class="product-body">
+							<h3 class="product-price">₹1000</h3>
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o empty"></i>
+							</div>
+							<h2 class="product-name"><a href="#">Product Name Here</a></h2>
+							<div class="product-btns">
+								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Product Single -->
+
+				<!-- Product Single -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="product product-single">
+						<div class="product-thumb">
+							<div class="product-label">
+								<span>New</span>
+							</div>
+							<img src="./img/product02.jpg" alt="">
+						</div>
+						<div class="product-body">
+							<h3 class="product-price">₹1000</h3>
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o empty"></i>
+							</div>
+							<h2 class="product-name"><a href="#">Product Name Here</a></h2>
+							<div class="product-btns">
+								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Product Single -->
+
+				<!-- Product Single -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="product product-single">
+						<div class="product-thumb">
+							<div class="product-label">
+								<span class="sale">-20%</span>
+							</div>
+							<img src="./img/product02.jpg" alt="">
+						</div>
+						<div class="product-body">
+							<h3 class="product-price">₹1000 <del class="product-old-price">₹2500</del></h3>
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o empty"></i>
+							</div>
+							<h2 class="product-name"><a href="#">Product Name Here</a></h2>
+							<div class="product-btns">
+								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Product Single -->
+
+				<!-- Product Single -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="product product-single">
+						<div class="product-thumb">
+							<div class="product-label">
+								<span>New</span>
+								<span class="sale">-20%</span>
+							</div>
+							<img src="./img/product02.jpg" alt="">
+						</div>
+						<div class="product-body">
+							<h3 class="product-price">₹1000 <del class="product-old-price">₹2500</del></h3>
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o empty"></i>
+							</div>
+							<h2 class="product-name"><a href="#">Product Name Here</a></h2>
+							<div class="product-btns">
+								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Product Single -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+
+	<!-- FOOTER -->
+	<footer id="footer" class="section section-grey">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<!-- footer logo -->
+						<div class="footer-logo">
+							<a class="logo" href="index.html">
+								<img src="./img/logo6.png" alt="">
+							</a>
+						</div>
+						<!-- /footer logo -->
+
+						<p>AR Shop is a shopping website developed to let the consumers interact with the product in Augumented Reality as if they are looking at it in real life.</p>
+
+						<!-- footer social -->
+						<ul class="footer-social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+						<!-- /footer social -->
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">My Account</h3>
+						<ul class="list-links">
+							<li><a href="#">My Account</a></li>
+							<li><a href="Checkout.html">Checkout</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<div class="clearfix visible-sm visible-xs"></div>
+
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Customer Service</h3>
+						<ul class="list-links">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Shiping & Return</a></li>
+							<li><a href="#">Shiping Guide</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<!-- footer subscribe -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Stay Connected</h3>
+						<p>To know more about our Offers and Deals,subscribe to our Newsletter.</p>
+						<form>
+							<div class="form-group">
+								<input class="input" placeholder="Enter Email Address...">
+							</div>
+							<button class="primary-btn">Join Newslatter</button>
+						</form>
+					</div>
+				</div>
+				<!-- /footer subscribe -->
+			</div>
+			<!-- /row -->
+			<hr>
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						 &copy;<script>document.write(new Date().getFullYear());</script> AR Shop
+					</div>
+					<!-- /footer copyright -->
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
