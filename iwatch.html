@@ -3,12 +3,12 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>iWatch</title>
+    <title>iwatch</title>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js "></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   </head>
   <body style="margin : 0px; overflow: hidden;">
-    
+
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3_parity_6_5;'>
 
       <a-marker preset="custom" type='barcode' value='0'>
@@ -16,7 +16,7 @@
           position="0 0 3"
           scale="0.1 0.1 0.1"
           gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/gOdmOde101/WebAR_JS/master/asset/JW_iwatch/scene.gltf"
-          animation="property: rotation; to: 360 0 360; easing: linear; loop: true; dur: 20000">
+          animation="property: rotation; to: 360 0 0; easing: linear; loop: true; dur: 20000">
         </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
