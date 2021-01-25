@@ -3,37 +3,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>women's bag</title>
+    <title>Wbag</title>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js "></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   </head>
   <body style="margin : 0px; overflow: hidden;">
     <!--<a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>-->
-    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3_parity_6_5;'>
 
-      <a-assets>
-        <a-asset-item response-type="arraybuffer" id="womenbag" src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/gOdmOde101/WebAR_JS/master/asset/WF_bag/scene.gltf"></a-asset-item>
-      </a-assets>
-
-      <!--<a-plane position="0 0 0" rotation="0 0 0" width="4" height="4" color="yellow"></a-plane>
-      <a-plane position="0 -2 2" rotation="-90 0 0" width="4" height="4" color="blue"></a-plane>
-      <a-marker preset="custom" type="pattern" url="./link/VBig.patt">-->
-
-      <a-marker preset="custom" type="barcode" value="18">
-
-        <!--<a-box position="0 0 0" rotation="0 45 0" color="green" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000; easing: linear;"></a-box>
-
-
-        <a-plane position="0 0 0" rotation="-90 0 0" width="7" height="7" color="#f8f8ff"></a-plane>-->
-
+      <a-marker preset="custom" type='barcode' value='0'>
         <a-entity
-          position="0 0 0"
-          scale="2 2 2"
-          gltf-model="#womenbag">
+          position="0 0 3"
+          scale="0.5 0.5 0.5"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/gOdmOde101/WebAR_JS/master/asset/WF_bag/scene.gltf"
+          animation="property: rotation; to: 0 0 360; easing: linear; loop: true; dur: 20000">
         </a-entity>
-
       </a-marker>
-
       <a-entity camera></a-entity>
 
     </a-scene>
